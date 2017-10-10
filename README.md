@@ -14,9 +14,5 @@
     ALEJANDRA GUERRERO
     CARLOS YANES
     
-    
-    
-LO QUE FALTA:
-    1.- Guardar las encuestas (A y B) en la base de datos <----- LISTO
-    2.- Reportes
+Proyecto Desarrollado en Hapi.js haciendo uso de Sequelize como ORM para el manejo de encuestas para Docentes y Estudiantes. El proyecto se llevo a cabo bajo la plataforma c9.
     
