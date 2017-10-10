@@ -1,0 +1,20 @@
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+    background-color: #90caf9;
+}
+
+.background {
+    background-image: url("http://www.unimet.edu.ve/unimetsite/wp-content/themes/unimet/images/bg-unimet.jpg");
+    background-repeat: no-repeat;
+}
+
+.datos-Perfil{
+    font-size: 15px;
+}
+
+.perfil{
+    font-size: 25px;
+}
+
+i.material-icons.resize{
+    font-size:250px;
+}

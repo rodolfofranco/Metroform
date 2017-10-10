@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <title>Acerca De</title>
+    <link rel="icon" href="https://docs.google.com/drawings/d/1ylcSicomADdqRAxfwIYxs4rZHaAItDxtS83HyI_O_Zs/pub?w=113&h=50">
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/AcercaDe.css">
+    <script type="text/javascript" src="js/a.js"></script>
+
+</head>
+
+<body>
+<!-- Always shows a header, even in smaller screens. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header" style="background-color: #f9b300">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">MetroForm</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation. We hide it in small screens. -->
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+      <a class="mdl-navigation__link links" href="/Home">
+        <div class=""></div>
+        <i class="icon material-icons" id="iconHome" style="text-allign:right ; font-size: 30px">home</i>
+        <div class="mdl-tooltip mdl-tooltip--large" for="iconHome">
+          Inicio
+        </div>
+      </a>
+      <a class="mdl-navigation__link links" href="/Usuario">
+        <i class="icon material-icons" id="iconAccount" style="text-allign:right ; font-size: 30px">account_circle</i>
+      </a>
+      <a class="mdl-navigation__link links" href="/logout">
+        <i class="icon material-icons" id="iconLogout" style="text-allign:right ; font-size: 30px">exit_to_app</i>
+        <div class="mdl-tooltip mdl-tooltip--large" for="iconLogout">
+          Salir
+        </div>
+      </a>
+      </nav>
+
+    </div>
+  </header>
+   <!-- Acá va el contenido de la vista -->
+  <main class="mdl-layout__content img-responsive background">
+    <div class="page-content container">
+      <br>
+      <br>
+      <div id="acerca" class="well">
+        <div class="titulo">Acerca De
+        </div>
+        <hr>
+        <div class="info">
+          MetroForm es una aplicación web desarrollada por estudiantes de la materia Sistemas de Información de la UNIMET.
+          Consiste en una plataforma para la automatización de evaluaciones del desempeño de los profesores de la universidad.
+        </div>
+      </div>
+      <div id="condiciones"></div>
+      <div id="terminos" class="well">
+        <div class="titulo">Términos y Condiciones</div>
+        <hr>
+        <div class="info">
+          Al registrarte en esta página y al hacer uso de MetroForm estás accediendo a los términos de la empresa. En donde podemos usar la información
+          pública, no tu data sensible, para poder auditar y gestionar toda la información que obtenemos para poder realizar mejoras en nuestro sistema y la base de datos.
+        </div>
+      </div>
+      <div id="asociaciones" class="well">
+        <div class="titulo">Asociaciones</div>
+        <hr>
+        <div class="info">
+          Esta aplicación fue desarrollada en asociación con el CETIC y autoridades de la Universidad Metropolitana.
+
+        </div>
+      </div>
+      <div id="especificaciones" class="well">
+        <div class="titulo">Especificaciones</div>
+        <hr>
+        <div class="info">
+          MetroForm es un proyecto diseñado para las funcionas básicas del desempeño de los docentes de la UNIMET. En esta aplicación podrás
+          acceder a tu información académica, inscribirte en materias para realizar evaluaciones a tus profesores y para los profesores, estos podrán
+          realizar sus autoevaluaciones y ver su desempeño generalizado.
+        </div>
+      </div>
+      <div id="herramientas" class="well">
+        <div class="titulo">Herramientas</div>
+        <hr>
+        <div class="info">
+          Se utilizó para el desarrollo colaborativo web la plataforma Cloud9 --> <a href="http://www.c9.io"  target="_blank" style="text-decoration: none">c9.io</a>
+        </div>
+      </div>
+      <div id="recursos" class="well">
+        <div class="titulo">Recursos</div>
+        <hr>
+        <div class="info">
+          Se utilizó Node.js que es un entorno en tiempo de ejecución multiplataforma, 
+          de código abierto, para la capa del servidor basado en el lenguaje de programación ECMAScript, 
+          asíncrono, con I/O de datos en una arquitectura orientada a eventos y basado en el motor V8 de Google. --> 
+          <a href="https://nodejs.org/en/" target="_blank" style="text-decoration: none">Node.js</a>
+          <br>
+          <br>
+          Además se utilizó Sequelize que es un ORM que está diseñado para trabajar con Node.JS e IO.JS. 
+          Está escrito en JavaScript puro y soporta muchos motores de base de datos como MySQL, Postgres, SQLite y MSSQL.
+          --> <a href="http://docs.sequelizejs.com/"target="_blank" style="text-decoration: none">Sequelizejs.com</a>
+          <br>
+          <br>
+          Finalmente se utilizó MySQL que es un sistema de gestión de bases de datos relacional desarrollado bajo licencia dual 
+          GPL/Licencia comercial por Oracle Corporation y está considerada como la base datos open source más popular del mundo, 
+          y una de las más populares en general junto a Oracle y Microsoft SQL Server, sobre todo para entornos de desarrollo web.
+          --> <a href="https://www.mysql.com/"target="_blank" style="text-decoration: none">MySQL.com</a>
+        </div>
+      </div>
+      <div id="preguntas" class="well">
+        <div class="titulo">Preguntas</div>
+        <hr>
+        <div class="info"></div>
+      </div>
+      <div id="respuestas" class="well">
+        <div class="titulo">Respuestas</div>
+        <hr>
+        <div class="info"></div>
+      </div>
+      <div id="contactos" class="well">
+        <div class="titulo">Contáctanos</div>
+        <hr>
+        <div class="info">
+          Luis Crespo ---        Correo: luiscrespo@correo.unimet.edu.ve
+          <br>
+          <br>
+          Rodolfo Franco ---     Correo: rodolfofranco@correo.unimet.edu.ve
+          <br>
+          <br>
+          Alejandra Guerrero --- Correo: alejandra.guerrero@correo.unimet.edu.ve
+          <br>
+          <br>
+          Carlos Yanes ---       Correo: cyanes@correo.unimet.edu.ve
+        </div>
+      </div>
+      <div id="ayuda" class="well">
+        <div class="titulo">Ayuda</div>
+        <hr>
+        <div class="info">
+          Si necesitas ayuda o tienes problema para ingresar al sistema, puedes escribirnos a los correos de contacto.
+        </div>
+      </div>
+
+    </div>
+  </main>
+</div>
+<script type="text/javascript" src="js/usuarioActivo.js"></script>
+
+</body>
+
+
+</html>

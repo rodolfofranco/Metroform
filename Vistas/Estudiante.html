@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+    <link rel="icon" href="https://docs.google.com/drawings/d/1ylcSicomADdqRAxfwIYxs4rZHaAItDxtS83HyI_O_Zs/pub?w=113&h=50">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="stylesheet" href="css/inicio.css">
+</head>
+<body>
+<!-- Uses a transparent header that draws on top of the layout's background -->
+<style>
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+      -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+
+    -webkit-transition: 200ms linear all;
+    -moz-transition: 200ms linear all;
+    -o-transition: 200ms linear all;
+    transition: 200ms linear all;
+  ;
+}
+.demo-layout-transparent .mdl-layout__drawer-button:hover{
+      -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    
+    -webkit-transition: 200ms linear all;
+    -moz-transition: 200ms linear all;
+    -o-transition: 200ms linear all;
+    transition: 200ms linear all;
+    color:orange;
+}
+</style>
+
+<div class="demo-layout-transparent mdl-layout mdl-js-layout">
+  <header class="mdl-layout__header" style="background-color: #f9b300">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">MetroForm</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation. We hide it in small screens. -->
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+      <a class="mdl-navigation__link links" href="/Home">
+        <div class=""></div>
+        <i class="icon material-icons" id="iconHome" style="text-allign:right ; font-size: 30px">home</i>
+        <div class="mdl-tooltip mdl-tooltip--large" for="iconHome">
+          Inicio
+        </div>
+      </a>
+      <a class="mdl-navigation__link links" href="/Usuario">
+        <i class="icon material-icons" id="iconAccount" style="text-allign:right ; font-size: 30px">account_circle</i>
+        <div class="mdl-tooltip mdl-tooltip--large" id="perfil" for="iconAccount">
+            
+        </div>
+      </a>
+      <a class="mdl-navigation__link links" href="/logout">
+        <i class="icon material-icons" id="iconLogout" style="text-allign:right ; font-size: 30px">exit_to_app</i>
+        <div class="mdl-tooltip mdl-tooltip--large" for="iconLogout">
+          Salir
+        </div>
+      </a>
+      </nav>
+
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Menu</span>
+    <nav class="mdl-navigation" id="menu">
+    </nav>
+  </div>
+   <!-- Acá va el contenido de la vista -->
+  <main class="mdl-layout__content">
+  </main>
+</div>
+<script type="text/javascript" src="js/usuarioActivo.js"></script>
+
+</body>
+</html>

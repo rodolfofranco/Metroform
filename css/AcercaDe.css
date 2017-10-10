@@ -1,0 +1,22 @@
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+    background-color: #90caf9;
+}
+
+.titulo{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    display:inline-block;
+}
+.info{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+#1{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    display:inline-block;
+    color:transparent;
+}
+.titulo:hover #1{
+    color:black;
+} 

@@ -1,0 +1,8 @@
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+    background-color: #90caf9;
+}
+
+.background {
+    background-image: url("http://www.unimet.edu.ve/unimetsite/wp-content/themes/unimet/images/bg-unimet.jpg");
+    background-repeat: no-repeat;
+}
